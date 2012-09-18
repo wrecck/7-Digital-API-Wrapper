@@ -4,7 +4,7 @@
 *
 * 
 *
-* @copyright  2011 Fanmail Marketing
+* @copyright  2012 Nick Holdren
 * @license    http://www.zend.com/license/3_0.txt   PHP License 3.0
 * @version    Release: 1.0
 * @link       
