@@ -15,7 +15,7 @@ Making a request is simple just instantiate the object and fill in the parameter
 require_once('SevenDigital.php');
 
 //Instantiate
-$sd = SevenDigital();
+$sd = new SevenDigital();
 
 //Make a request
 $response = $sd->request({object}, {action}, {array of parameters})
@@ -24,6 +24,6 @@ $response = $sd->request({object}, {action}, {array of parameters})
 Here is an example of how to search for "Pink" ordered by score descending:
 
 ```php
-$sd = SevenDigital();
+$sd = new SevenDigital();
 $response = $sd->request('artist', 'search', array('q' => 'pink', 'sort' => 'score desc'));
 ```
